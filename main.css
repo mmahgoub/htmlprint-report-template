@@ -135,7 +135,12 @@ figure {
 }
 
 .figure sup {
-  font-size: 0.5em;
+  font-size: 0.7em;
+  line-height: 0;
+  top: -0.3em;
+  position: relative;
+  vertical-align: baseline;
+  font-weight: 750;
 }
 .figure h4 {
   font-weight: 700;
