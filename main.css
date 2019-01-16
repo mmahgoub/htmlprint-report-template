@@ -176,16 +176,14 @@ figure {
   font-size: 2.1em;
   font-weight: 500;
 }
-#liq-chart {
-  border-left: 0.5pt solid #9a8478;
-}
+
 .report-grid {
   display: grid;
   grid-gap: 0.5cm;
   margin-bottom: 0.6cm;
 }
 .grid-01 {
-  grid-template-columns: 2fr 2fr 3fr;
+  grid-template-columns: 1fr 1fr 2fr;
   grid-template-areas:
     "a b c"
     "d d c";
@@ -199,6 +197,7 @@ figure {
 }
 .grid-01-c {
   grid-area: c;
+  border-left: 0.5pt solid #9a8478;
 }
 .grid-01-d {
   grid-area: d;
@@ -207,21 +206,19 @@ figure {
   grid-template-columns: repeat(2, 1fr);
 }
 .grid-02 .figure {
-    min-width: 6em;
-  }
+  min-width: 6em;
+}
 .grid-03 {
   grid-template-columns: repeat(3, 1fr);
   font-size: 0.8em;
 }
 .grid-03 .figure {
-    min-width: 5em;
-  }
+  min-width: 5em;
+}
 .grid-04 {
-    grid-template-columns: 1fr 2fr;
-    font-size: 0.8em;
-  }
-  .grid-04 .figure {
-    min-width: 40%;
-  }
-
-
+  grid-template-columns: 1fr 2fr;
+  font-size: 0.8em;
+}
+.grid-04 .figure {
+  min-width: 40%;
+}
