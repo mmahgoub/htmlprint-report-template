@@ -45,6 +45,10 @@ html {
 }
 .page section .heading {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr minmax(min-content, auto) 1fr;
+  grid-gap: 0.3cm;
+  margin-bottom: 1cm;
 }
 .page section h2 {
   font-size: 1.5rem;
@@ -56,14 +60,9 @@ html {
   background: rgb(254, 254, 254);
   letter-spacing: 0.1em;
 }
-.page section h2::after {
-  border-top: 2.5pt solid #d8c5ba;
+.page section .heading span {
+  border-bottom: 2.5pt solid #d8c5ba;
   display: block;
-  width: 100%;
-  height: 2pt;
-  content: "";
-  margin-top: -5.5pt;
-  margin-bottom: 0.5cm;
 }
 .page section h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -76,7 +75,6 @@ html {
   border-left: 8pt solid #404041;
   margin-bottom: 6.6mm;
 }
-
 .page section table {
   width: 100%;
   border-collapse: collapse;
