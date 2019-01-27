@@ -109,7 +109,7 @@ html {
   margin-left: auto;
   margin-right: 0;
 }
-.page table,
+ 
 .page figure {
   page-break-inside: avoid;
 }
