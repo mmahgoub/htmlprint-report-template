@@ -48,7 +48,7 @@ html {
   display: grid;
   grid-template-columns: 1fr minmax(min-content, auto) 1fr;
   grid-gap: 0.3cm;
-  margin-bottom: 1cm;
+  margin: 1cm auto;
 }
 .page section h2 {
   font-size: 1.5rem;
